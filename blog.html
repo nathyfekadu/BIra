@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOGS</title>
+
+    <link rel="stylesheet" href="Style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="all imgs/background-17.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about us.html">ABOUT</a></li>
+                    <li><a href="service.html">SERVICE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact us.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"> </i>
+        </nav>
+        <h1>BLOGS</h1>
+    </section>
+
+    <!--BLOG-->
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="all imgs/background-14.jpg">
+                    <h2>BLOGS</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe doloremque nam omnis fugiat. Earum eveniet impedit voluptatem. Fugit, aperiam iusto rerum ab, quia aspernatur dolorum obcaecati nisi totam, eius consequatur. Consectetur numquam exercitationem quos sunt obcaecati? Temporibus, nobis exercitationem eveniet dignissimos sint consectetur molestias aliquid.
+                    </p>
+                        <br>
+                    <p>Praesentium maxime tempore unde deserunt! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe doloremque nam omnis fugiat. Earum eveniet impedit voluptatem. Fugit, aperiam iusto rerum ab, quia aspernatur dolorum obcaecati nisi totam, eius consequatur. Consectetur numquam exercitationem quos sunt obcaecati? Temporibus, nobis exercitationem eveniet dignissimos sint consectetur molestias aliquid. Praesentium maxime tempore unde deserunt!
+                        Praesentium maxime tempore unde deserunt! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe doloremque nam omnis fugiat. Earum eveniet impedit voluptatem. Fugit, aperiam iusto rerum ab, quia aspernatur dolorum obcaecati nisi totam, eius consequatur. Consectetur numquam exercitationem quos sunt obcaecati? Temporibus, nobis exercitationem eveniet dignissimos sint consectetur molestias aliquid. Praesentium maxime tempore unde deserunt!
+                    </p> 
+                    <br>
+
+                    <p>Praesentium maxime tempore unde deserunt! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe doloremque nam omnis fugiat. Earum eveniet impedit voluptatem. Fugit, aperiam iusto rerum ab, quia aspernatur dolorum obcaecati nisi totam, eius consequatur.</p>
+
+
+                    <div class="comment-box">
+                        <h3>Leave a comment</h3>
+
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea rows="5" placeholder="Your Comment"></textarea>
+
+                            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="blog-right">
+                    <h3>Post catagories</h3>
+
+                    <div>
+                        <span>hgsdhghsdsf</span>
+                        <span>12</span>
+                    </div>
+
+                    <div>
+                        <span>hgsdhghsdsf</span>
+                        <span>12</span>
+                    </div>
+                
+                    <div>
+                        <span>hgsdhghsdsf</span>
+                        <span>12</span>
+                    </div>
+                    
+                    <div>
+                        <span>hgsdhghsdsf</span>
+                        <span>12</span>
+                    </div>
+
+                    <div>
+                        <span>hgsdhghsdsf</span>
+                        <span>12</span>
+                    </div>
+                
+                    <div>
+                        <span>hgsdhghsdsf</span>
+                        <span>12</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    <!--Footer-->
+
+    <section class="footer">
+        <h4>About US </h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet minus impedit<br> porro natus delectus sint.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook fa-bounce"></i>&nbsp;&nbsp;
+            <i class="fa-brands fa-instagram fa-fade"></i>&nbsp;&nbsp;
+            <i class="fa-sharp fa-solid fa-x fa-bounce"></i>&nbsp;&nbsp;
+            <i class="fa-brands fa-telegram fa-beat-fade"></i>&nbsp;&nbsp;
+            <i class="fa-brands fa-linkedin fa-bounce"></i>
+            
+        </div>
+    </section>
+
+<!--Javascript code for toggle menu-->
+    <script>
+        var navLinks = document.getElementNYID("navLinks")
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
